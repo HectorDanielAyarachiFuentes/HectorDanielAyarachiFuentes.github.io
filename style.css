@@ -1,0 +1,39 @@
+/*** Responsive */
+@media(width <48rem){
+    /*Tablets */
+    main{
+        width: 98%;
+    }
+    section{
+        padding:0rem;
+    }
+    section>div{
+        flex-wrap:wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card, .formulario, footer>div{
+        width:100%;
+    }
+    .card{
+        max-width: 31.25rem;
+    }
+    footer>div{
+        margin-bottom: 1.25rem;
+    }
+    footer ul{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contacto{
+        text-align: center;
+    }
+    footer{
+        flex-wrap:wrap;
+        flex-direction: column;
+       
+    }
+    
+}
